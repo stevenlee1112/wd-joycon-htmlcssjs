@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="style.CSS" />
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JoyCon</title>
-</head>
+<meta charset="UTF-8">
+<meta name="viewport">
+content = "width= device-width,
+initial-scale=1.0"/>
+<title=<gamepad></title>
+    <div class=cable></div>
+<div class=controller>
+  <div class=centerBlue>
+    <div class=centerLeft></div>   
+    <div class=centerRight></div>  
+  </div>
+  <div class=controllerLeft>
+    <div class=circle></div>
+    <div class=crossCenter>
+      <div class=crossTop></div>
+      <div class=crossBottom></div>
+      <div class=crossLeft></div>
+      <div class=crossRight></div>
+      <div class=crossCircle></div>
+    </div>
+  </div>
+  <div class=controllerRight>
+      <div class= cornerLeft1></div>
+      <div class= cornerRight1></div>
+    </div>
+</div>
+
 <body>
     <!-- buat komponen yang menggambarkan controller @MUTAMA -->
+   
+
     <!--    [^]                -->
     <!-- [<][v][>]      [B][A] -->
     <!--           atau        -->
     <!--    [^]                -->
     <!-- [<]   [>]      [B][A] -->
     <!--    [v]                -->
+    <button type="button">up</button>
+    <button type="button">right</button>
+    <button type="button">left</button>
+    <button type="button">down</button>
+    <button type="button">a</button>
+    <button type="button">b</button>
     <!-- controller dibagi menjadi 2 bagian, kiri untuk arah, kanan untuk aksi -->
     <!-- banyak cara yang bisa kamu terapkan, sesuaikan saja dengan apa yang menurut kamu paling nyaman -->
     <!-- di kolom kiri yang memuat arah bisa dibuat dengan menggunakan skema display flex atau pun memanfaatkan posisi absolute yang memuat button-button -->
